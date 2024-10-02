@@ -1,0 +1,8 @@
+import time
+
+def send_message():
+    print("1時間が経過しました。次のメッセージを送信します。")
+
+while True:
+    send_message()
+    time.sleep(3600)  # 1時間(3600秒)待つ
